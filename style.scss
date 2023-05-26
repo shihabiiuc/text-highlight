@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+  margin: 0;
+}
+.container {
+  padding: 90px 15px;
+  line-height: 1.7;
+  background-color: #e3ffea;
+  border-top: 1px solid #bdfccd;
+  border-bottom: 1px solid #e8fced;
+  display: grid;
+  grid-template-columns: minmax(auto, 800px);
+  justify-content: center;
+}
+.container.example-2 {
+  mark {
+    background-color: #59ff83;
+    padding: 3px 5px 5px;
+    border-radius: 4px;
+  }
+}
